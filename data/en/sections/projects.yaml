@@ -1,0 +1,65 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Professional
+  filter: "professional"
+- name: Academic
+  filter: "academic"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: Rapid Traffic Inspection
+  logo: images\sections\projects\p1.jpeg
+  role: Founder
+  timeline: "March 2022"
+  repo: https://github.com/BlackBoxJU50/Online_Traffic_Inspection_System-CPP.git # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Inspecetion Of license and other Document Rapidly
+  tags: ["Academic", "C++", "File System"]
+
+- name: JUBER(Booking Vehicle at Campus)
+  logo: /images/sections/projects/tensorflow.png
+  role: Developer
+  timeline: "Jun 2023"
+  repo: https://github.com/BlackBoxJU50/JUBER-JAVA-PROJECT.git
+  #url: ""
+  summary: An Ride sharing appplication with userfriendly interface to book a ride at Campus Area for Everyone.
+  tags: ["professional", "JAVA", "Database","XAAMP","MySql"]
+
+- name: Online Seat Reservation in Library
+  role: Team Lead
+  timeline: "2023"
+  repo: https://github.com/BlackBoxJU50/Online_Book_-_Seat_Reservation_JAVA.git
+  summary: This project helps a student to book a seat in a library
+  tags: ["academic",]
+
+- name: E-Harvest (MarketPlace with Transparency)
+  logo: images\sections\projects\kubernetes_hu7571393890923814960.png
+  role: Team Leader
+  timeline: "2023"
+  repo: https://github.com/BlackBoxJU50/e-Harvest-Project.git
+  #url: ""
+  summary: This is an Object Oriented Analysis and Design Project to solve the problem f price hike by Syndicate.
+  tags: ["hobby", "fun"]
+
+- name: Proffessional Portfolio using HUGO
+  logo: /images/sections/projects/toha.png
+  image: images\sections\projects\kubernetes_hu7571393890923814960.png
+  role: Owner
+  timeline: "Jun 2019 - Present"
+  repo: https://github.com/hossainemruz/toha
+  summary: A Hugo theme for personal portfolio.
+  tags: ["hobby","hugo","theme","professional"]

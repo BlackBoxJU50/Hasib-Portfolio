@@ -1,0 +1,89 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+
+ 
+- name: B.Sc. in Computer Science & Engineering
+  icon: fa-graduation-cap
+  timeframe: 2021-Present
+  institution:
+    name: Jahangirnagar University
+    url: "#"
+    logo: /images/sections/education/university.jpg
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/university.jpg
+  grade: #(optional)
+    scale: CGPA
+    achieved: 3.5
+    outOf: 4
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: true
+    collapseAfter: 3
+    courses:
+    - name: Data Structures and Algorithm
+      achieved: 3.75
+      outOf: 4
+    - name: Data Telecommunication
+      achieved: 3.80
+      outOf: 4
+    - name: Operating System
+      achieved: 3.5
+      outOf: 4
+    - name: Object Oriented Programming
+      achieved: 3.75
+      outOf: 4
+  
+  extracurricularActivities: #(optional)
+  - Cricket Player in the department MAin Team
+  - Event Organizer 
+  - Class Representitive
+  - Progrraming Community Member
+  custonSections: #(optional)
+    - name: Thesis
+      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    - name: Supervisor
+      content: Fusce eu augue ut odio porttitor pulvinar.
+- name: Higher Secondary School Certificate
+  icon: fa-university
+  timeframe: 2018-2019
+  institution:
+    name: Brahmanbaria Gov't College
+    url: "#"
+    logo: /images/sections/education/science_college.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/science_college.png
+  grade: #(optional)
+    scale: GPA
+    achieved: 5
+    outOf: 5
+  extracurricularActivities: #(optional)
+  - As Cricket Player win a Inter-College Tournament
+  - Event Organizer 
+  - Class Representitive
+  - Debating Club
+- name: Secondary School Certificate
+  icon: fa-school
+  timeframe: 2011-2017
+  institution:
+    name: Annada Gov't High School,Brahmanbaria
+  grade: #(optional)
+    scale: GPA
+    achieved: 5
+    outOf: 5
+  
+  extracurricularActivities: #(optional)
+  - As Cricket Player win a Inter-College Tournament
+  - Event Organizer 
+  - Class Representitive
+  - Science Fair Winnner
+  - Math Olympiad Runnerup

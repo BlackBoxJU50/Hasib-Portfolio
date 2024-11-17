@@ -1,0 +1,20 @@
+# some information about you
+name: "Md Hasib Ahmed Khan"
+nickname: "Hasib"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/00000PORTRAIT_00000_BURST20211217151702479(1)(1).png"  # Corrected the backslashes
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "ahmedhasib2224@gmail.com"
+  phone: "01706431932"
+  github: BlackBoxJU50
+  linkedin: Md HAsib Ahmed Khan
+
+# some summary about what you do
+summary:
+  - I am a Developer
+  - I am a Devops
+  - I love servers
+  - I work on open-source projects
+  - I love to work with some fun projects
